@@ -18,8 +18,6 @@ How to do AB testing? What tools you have used for testing?
 
 
 
-
-
 🔍 Additional and more detailed Interview Questions:
 
 1️⃣ Data Cleansing & Transformation:
@@ -70,6 +68,78 @@ How to do AB testing? What tools you have used for testing?
 • Any post-migration reviews to evaluate migration success?
 • Any lessons learned or things you would do differently next time?
 
+
+_*The real problems and scenarios encountered during migration*_
+
+🔍 SQL Conversion:
+
+1️⃣ Can you rewrite a given Oracle SQL to be Snowflake compatible, considering syntax and function differences?
+
+🚀 Performance Tuning:
+2️⃣ How would you optimize a slow-performing Snowflake query, initially fine in Oracle? Detail the steps for identifying and resolving bottlenecks.
+
+🔄 Data Transformation:
+
+3️⃣ How would you translate complex transformation logic in Oracle PL/SQL to work in Snowflake?
+
+
+⏳ Data Load Strategy:
+
+4️⃣ Outline steps to efficiently load massive data from Oracle to Snowflake. How would you minimize downtime and impact on source systems
+
+❗ Error Handling:
+
+5️⃣ How would you resolve data discrepancies or errors during migration? Can you detail a situation where you resolved such discrepancies?
+
+✅ Data Validation:
+
+6️⃣ Outline your approach to validate data consistency between Oracle and Snowflake post-migration.
+
+
+🔧 Optimization:
+
+7️⃣ Detail a scenario where you improved data retrieval performance in Snowflake using clustering keys or partitioning.
+
+💲 Cost Management:
+
+8️⃣ How would you reduce unnecessary expenses if costs in Snowflake are higher than expected post-migration?
+
+🔒 Security & Access Control:
+
+9️⃣ How would you map Oracle roles to Snowflake? Can you provide examples of implementing role-based access control in Snowflake?
+
+📊 Data Modeling:
+
+🔟 How would you modify Oracle data models to optimize performance in Snowflake?
+
+🤖 Automation:
+
+1️⃣1️⃣ Can you describe how you automated data migration and transformation processes from Oracle to Snowflake?
+
+
+🔗 Integration:
+
+1️⃣2️⃣ Detail how you would integrate Snowflake with existing ETL tools and reporting applications.
+
+🛡️ Disaster Recovery:
+
+1️⃣3️⃣ How would you set up a disaster recovery strategy in Snowflake to safeguard against data loss during unforeseen events?
+
+💬 Change Management:
+
+1️⃣4️⃣ Give an example of managing stakeholder or end-user resistance during a migration project.
+
+🚨 Critical Issue Resolution:
+
+1️⃣5️⃣ If a connectivity issue between Oracle and Snowflake halts migration unexpectedly, how would you resolve it?
+
+🔄 Data Consistency Scenario:
+
+1️⃣6️⃣ How would you resolve discrepancies in row counts between Oracle and Snowflake tables post-migration?
+
+🚀 Performance Scenario:
+
+1️⃣7️⃣ If a critical report is taking significantly longer in Snowflake post-migration, how would you troubleshoot and optimize it?
 
 
 
