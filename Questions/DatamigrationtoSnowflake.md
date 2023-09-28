@@ -1,5 +1,6 @@
-_*Here is broad division of categories of questions on migration*_
+# Data migration to Snowflake
 
+## Broad Categories of Questions
 Were you involved in plannig? Can you brief on planning exercis?
 
 What is Pre-migration analysis
@@ -286,6 +287,7 @@ Post-migration, were any optimization strategies applied to enhance the performa
 2️⃣3️⃣ How were any unforeseen costs during migration addressed?
 
 
+Sample formatting
 # Header 1
 ## Header 2
 ### Header 3
