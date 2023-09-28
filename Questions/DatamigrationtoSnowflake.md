@@ -1,14 +1,24 @@
 *Here is broad division of categories of questions on migration*
+
 Were you involved in plannig? Can you brief on planning exercis?
+
 What is Pre-migration analysis
+
 What is schema migration?
+
 What are the various stagess? Initial Loading, delta loading, parallel run?
+
 What are the Tools you have used for migration?
+
 What is the cutover and release certificaiton process?
+
 Did you encounter any production issues after migrating? How did you fix those?
+
 How to do AB testing? What tools you have used for testing?
 
-🔍 Additional Interview Questions:
+
+
+🔍 Additional and more detailed Interview Questions:
 
 1️⃣ Data Cleansing & Transformation:
 • How did you manage data cleansing & transformation?
