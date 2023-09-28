@@ -17,8 +17,7 @@ Did you encounter any production issues after migrating? How did you fix those?
 How to do AB testing? What tools you have used for testing?
 
 
-
-🔍 Additional and more detailed Interview Questions:
+🔍 *Additional and more detailed Interview Questions*:
 
 1️⃣ Data Cleansing & Transformation:
 • How did you manage data cleansing & transformation?
@@ -285,3 +284,6 @@ Post-migration, were any optimization strategies applied to enhance the performa
 2️⃣2️⃣ Can you discuss the cost-benefit analysis performed pre-migration? Were the benefits realized as anticipated?
 
 2️⃣3️⃣ How were any unforeseen costs during migration addressed?
+
+
+***Header 1***
