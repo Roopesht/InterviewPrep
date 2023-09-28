@@ -1,4 +1,4 @@
-*Here is broad division of categories of questions on migration*
+_*Here is broad division of categories of questions on migration*_
 
 Were you involved in plannig? Can you brief on planning exercis?
 
@@ -15,6 +15,8 @@ What is the cutover and release certificaiton process?
 Did you encounter any production issues after migrating? How did you fix those?
 
 How to do AB testing? What tools you have used for testing?
+
+
 
 
 
@@ -67,6 +69,8 @@ How to do AB testing? What tools you have used for testing?
 1️⃣2️⃣ Post-Migration Review:
 • Any post-migration reviews to evaluate migration success?
 • Any lessons learned or things you would do differently next time?
+
+
 
 
 _*Some more questions on planning phase*_
@@ -127,6 +131,9 @@ How did you evaluate the performance of the new Snowflake environment compared t
 
 1️⃣5️⃣ Optimization Strategies:
 Post-migration, were any optimization strategies applied to enhance the performance and efficiency of the Snowflake environment?
+
+
+
 
 
 *Here are questions for the level of manager or architect*
