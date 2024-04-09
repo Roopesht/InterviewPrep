@@ -1,0 +1,45 @@
+import pandas as pd
+import numpy as np
+
+# 1. Data Loading and Exploration
+telecom_data = pd.read_csv("telecom_data.csv")
+print("Dataset Information:")
+print(telecom_data.info())
+
+# 2. Data Cleaning and Preprocessing
+# Handle missing values
+telecom_data.fillna(telecom_data.mean(), inplace=True)
+
+# Handle outliers (example: removing outliers from 'monthly_charge' column)
+Q1 = telecom_data['monthly_charge'].quantile(0.25)
+Q3 = telecom_data['monthly_charge'].quantile(0.75)
+IQR = Q3 - Q1
+telecom_data = telecom_data[~((telecom_data['monthly_charge'] < (Q1 - 1.5 * IQR)) | (telecom_data['monthly_charge'] > (Q3 + 1.5 * IQR)))]
+
+# Convert categorical variables (example: 'gender') into numerical using label encoding
+telecom_data['gender'] = telecom_data['gender'].map({'M': 0, 'F': 1})
+
+# Normalize numerical features
+telecom_data['monthly_charge'] = (telecom_data['monthly_charge'] - telecom_data['monthly_charge'].mean()) / telecom_data['monthly_charge'].std()
+telecom_data['data_usage'] = (telecom_data['data_usage'] - telecom_data['data_usage'].mean()) / telecom_data['data_usage'].std()
+
+# 3. Feature Engineering: No specific example provided, can include operations like creating new features or feature selection
+
+# 4. Exploratory Data Analysis (EDA)
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+sns.pairplot(telecom_data, hue='churn', diag_kind='kde')
+plt.show()
+
+# 5. Data Transformation
+from sklearn.model_selection import train_test_split
+
+X = telecom_data.drop('churn', axis=1)
+y = telecom_data['churn']
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# 6. Optional Advanced Task: No specific example provided
+
+# 7. Documentation and Reporting: No specific example provided

@@ -1,0 +1,17 @@
+
+For the optional advanced task, let's consider implementing PCA (Principal Component Analysis) for dimensionality reduction. PCA can be useful in reducing the number of features in the dataset while preserving the variance and important information, which can be beneficial for training machine learning models, especially when dealing with high-dimensional data.
+
+from sklearn.decomposition import PCA
+
+# Perform PCA for dimensionality reduction
+pca = PCA(n_components=3)  # Assuming we want to reduce to 3 principal components
+X_train_pca = pca.fit_transform(X_train)
+X_test_pca = pca.transform(X_test)
+
+# Now X_train_pca and X_test_pca contain the transformed features after PCA
+
+
+In this example, we've used PCA to reduce the number of features to 3 principal components. You can adjust the n_components parameter based on your specific requirements and the amount of variance you want to preserve.
+
+After applying PCA, you can use the transformed features X_train_pca and X_test_pca for model training and evaluation. This advanced task demonstrates how to utilize dimensionality reduction techniques to improve the efficiency and performance of AI models.
+

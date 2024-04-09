@@ -1,0 +1,40 @@
+### Task: Analyzing and Preprocessing Data for AI Development
+
+**Background:**  
+You are working on a project that involves developing an AI model for predicting customer churn in a telecommunications company. As part of the project, you need to analyze and preprocess the dataset before feeding it into the machine learning model.
+
+**Tasks for the Interview Candidate:**
+
+1. **Data Loading and Exploration:**
+   - Load the dataset (`telecom_data.csv`) into a Pandas DataFrame.
+   - Explore the dataset to understand its structure, features, and data types.
+   - Identify any missing values, outliers, or anomalies in the data.
+
+2. **Data Cleaning and Preprocessing:**
+   - Handle missing values by imputing them with appropriate methods (mean, median, etc.) or removing them based on the context.
+   - Detect and handle outliers using statistical methods or domain knowledge.
+   - Convert categorical variables into numerical representations using one-hot encoding or label encoding.
+   - Normalize or scale numerical features to ensure uniformity in the data distribution.
+
+3. **Feature Engineering:**
+   - Create new features if necessary by combining existing features or extracting relevant information.
+   - Perform feature selection to identify the most important features for predicting customer churn.
+
+4. **Exploratory Data Analysis (EDA):**
+   - Visualize the distribution of key features and their relationship with the target variable (churn).
+   - Identify patterns, correlations, or insights that can inform the AI model development process.
+
+5. **Data Transformation:**
+   - Split the dataset into training and testing sets for model evaluation.
+   - Perform any additional transformations required for model training, such as feature scaling or dimensionality reduction.
+
+6. **Optional Advanced Task:**
+   - Implement advanced techniques like PCA (Principal Component Analysis) for dimensionality reduction or SMOTE (Synthetic Minority Over-sampling Technique) for handling imbalanced datasets if deemed necessary.
+
+7. **Documentation and Reporting:**
+   - Document the data preprocessing steps and transformations performed in a clear and concise manner.
+   - Provide insights and observations from the EDA process that could influence model development decisions.
+   - Present the final preprocessed dataset ready for AI model training.
+
+**Evaluation:**  
+The candidate will be evaluated based on their ability to effectively analyze and preprocess the dataset using Pandas and NumPy, demonstrating proficiency in data manipulation, cleaning, feature engineering, and exploratory data analysis. Additionally, attention to detail, problem-solving skills, and the ability to communicate findings will be assessed.
