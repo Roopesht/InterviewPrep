@@ -1,0 +1,29 @@
+# How .env files make in to production?
+Below script will read the contents of your .env file and set each variable as an environment variable in your Ubuntu environment.
+
+#!/bin/bash
+
+# Define your .env file path
+ENV_FILE="/path/to/your/.env"
+
+# Check if the .env file exists
+if [ -f "$ENV_FILE" ]; then
+    # Read the .env file line by line
+    while IFS= read -r line; do
+        # Skip empty lines and comments
+        if [ -n "$line" ] && [[ "$line" != \#* ]]; then
+            # Split the line into variable name and value
+            key="${line%%=*}"
+            value="${line#*=}"
+            # Set the environment variable
+            export "$key"="$value"
+            echo "Exported environment variable: $key"
+        fi
+    done < "$ENV_FILE"
+    echo "Environment variables set successfully."
+else
+    echo "The .env file does not exist."
+    exit 1
+fi
+
+# 
