@@ -1,9 +1,9 @@
 # Problem Statement:
-# You are given a CSV file containing sales data in the following format:
-# date,product,quantity,price
-# The data is not well-formatted and contains inconsistencies and errors.
-# Your task is to clean up the data using pandas and numpy, perform some operations,
-# and output the result in a desired format.
+- You are given a CSV file containing sales data in the following format:
+- date,product,quantity,price
+- The data is not well-formatted and contains inconsistencies and errors.
+- Your task is to clean up the data using pandas and numpy, perform some operations,
+- and output the result in a desired format.
 
 # Your code should include the following functions:
 
